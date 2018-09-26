@@ -1,4 +1,12 @@
 .content {
-	margin: auto;
-	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
 }
